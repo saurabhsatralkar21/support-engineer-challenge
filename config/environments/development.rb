@@ -41,7 +41,6 @@ Rails.application.configure do
 
   config.action_mailer.perform_caching = false
 
-<<<<<<< HEAD
  
   #config.action_mailer.default_url_options = { host: 'localhost:3000' }
   config.action_mailer.default_url_options = { host: 'https://saurabhsatralkar21-fictional-enigma-7wvr6r95q6phrvj9-3000.preview.app.github.dev/mail'}
@@ -51,9 +50,6 @@ Rails.application.configure do
   config.action_mailer.preview_path = "#{Rails.root}/lib/mailer_previews"
 
   config.action_mailer.default_url_options = { host: ENV["DOMAIN"] }
-=======
-  config.action_mailer.delivery_method = :letter_opener_web
->>>>>>> 17d31407c87f08255267e8554ed2b674fac7ba5d
 
   # Print deprecation notices to the Rails logger.
   config.active_support.deprecation = :log
@@ -81,7 +77,6 @@ Rails.application.configure do
 
   # Uncomment if you wish to allow Action Cable access from any origin.
   # config.action_cable.disable_request_forgery_protection = true
-<<<<<<< HEAD
 
   class Application < Rails::Application
     config.web_console.whiny_requests = false
@@ -104,6 +99,3 @@ end
 
 end
 
-=======
-end
->>>>>>> 17d31407c87f08255267e8554ed2b674fac7ba5d

@@ -1,11 +1,7 @@
 source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-<<<<<<< HEAD
 ruby "3.1.3"
-=======
-ruby "3.1.2"
->>>>>>> 17d31407c87f08255267e8554ed2b674fac7ba5d
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.0.4"
@@ -75,10 +71,6 @@ group :test do
   gem "webdrivers"
 end
 
-<<<<<<< HEAD
 group :development do
   gem 'letter_opener_web'
 end
-=======
-gem "letter_opener_web"
->>>>>>> 17d31407c87f08255267e8554ed2b674fac7ba5d
