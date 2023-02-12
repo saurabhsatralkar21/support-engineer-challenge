@@ -22,6 +22,8 @@ https://community.fly.io/t/source-of-deployment-failing-due-to-unhealthy-allocat
 
 If this is not the case, I’d like to ask a few questions, please. May I please know in what language or framework your app is written? Was there any major update done to the app? Also, could you forward me the fly.toml, please? 
 
+---
+
 #### Support Email Troubleshooting steps
 
 Hey Alex,
@@ -35,6 +37,8 @@ I have a few recommendations for troubleshooting the issue that may help. This i
 
 If none of the above works, let me know and I can check internally if we have any kind of outages at the moment. Or perhaps check with the internal team to troubleshoot it. 
 
+---
+  
 #### Community Forum Response
 
 Can you run "fly logs" to see if it throws any issues or errors?
@@ -42,6 +46,8 @@ After that, try running "fly status --all" to see if the app did really deploy.
 
 May be try approaching it the way Greg did here on this post: https://community.fly.io/t/503-error-when-resuming-an-app/1173
 
+---
+  
 #### Rails App URL
 
 Once you've deployed your Rails app, put the link here: `https://quiet-sunset-5335.fly.dev/`
