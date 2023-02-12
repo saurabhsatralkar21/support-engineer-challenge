@@ -43,9 +43,11 @@ Rails.application.configure do
 
  
   #config.action_mailer.default_url_options = { host: 'localhost:3000' }
-  config.action_mailer.default_url_options = { host: 'https://saurabhsatralkar21-fictional-enigma-7wvr6r95q6phrvj9-3000.preview.app.github.dev/mail'}
+  
   config.action_mailer.perform_deliveries = true
+
   config.action_mailer.delivery_method = :letter_opener
+
 
   config.action_mailer.preview_path = "#{Rails.root}/lib/mailer_previews"
 
@@ -93,9 +95,6 @@ authentication: 'plain',
 enable_starttls_auto: true  
 }
 
-LetterOpenerWeb.configure do |config|
-  config.letters_location = Rails.root.join('your', 'new', 'path')
-end
+
 
 end
-
